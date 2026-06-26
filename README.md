@@ -23,8 +23,19 @@ This project implements comprehensive security measures for a web application, f
 - Logging implementation with Winston
 
 ##  Setup Instructions
+### How to install set up of Juice shop
+
+1. Install [node.js](#nodejs-version-compatibility)
+2. Run `git clone https://github.com/juice-shop/juice-shop.git --depth 1` (or
+   clone [your own fork](https://github.com/juice-shop/juice-shop/fork)
+   of the repository)
+3. Go into the cloned folder with `cd juice-shop`
+4. Run `npm install` (only has to be done before first start or when you change the source code)
+5. Run `npm start`
+6. Browse to <http://localhost:3000>
 
 ### Prerequisites
 ```bash
 node -v  # v14 or higher
 npm -v   # v6 or higher
+
