@@ -1,0 +1,37 @@
+# Security Assessment Report
+
+## Week 1 Assessment
+
+### Tools Used
+- OWASP ZAP
+- Browser Developer Tools
+- Manual Testing
+
+### Found Vulnerabilities
+
+1. **Cross-Site Scripting (XSS)**
+   - Location: Login page
+   - Impact: High
+   - Test: `script:alert('XSS');`
+
+2. **Weak Password Storage**
+   - Location: Database
+   - Impact: Critical
+   - Passwords stored in plain text
+
+3. **SQL Injection**
+   - Location: Login form
+   - Impact: Critical
+   - Test: `admin' OR '1'='1`
+
+4. **Missing Security Headers**
+   - Location: HTTP responses
+   - Impact: Medium
+   - No security headers implemented
+
+### Areas of Improvement
+- Implement input validation
+- Add password hashing
+- Secure HTTP headers
+- Add authentication tokens
+- Implement logging
