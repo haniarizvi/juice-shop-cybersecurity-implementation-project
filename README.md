@@ -1,9 +1,10 @@
 # juice-shop-cybersecurity-implementation-project
+![Juice Shop Logo](https://raw.githubusercontent.com/juice-shop/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
 
-## 🛡️ Overview
+## Overview
 This project implements comprehensive security measures for a web application, focusing on vulnerability assessment, password security, authentication enhancement, and secure data transmission.
 
-## 📋 Weekly Tasks
+## Weekly Tasks
 
 ### Week 1: Security Assessment
 - Set up the application from a mock web base eg. juice-shop 
@@ -21,7 +22,7 @@ This project implements comprehensive security measures for a web application, f
 - Basic penetration testing with Nmap
 - Logging implementation with Winston
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 ```bash
